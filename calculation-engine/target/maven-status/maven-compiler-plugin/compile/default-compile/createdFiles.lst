@@ -1,0 +1,12 @@
+com\ufcstudy\calculation\ExpectedValueResult.class
+com\ufcstudy\calculation\KellyResult.class
+com\ufcstudy\calculation\TwoWayNoVigResult.class
+com\ufcstudy\calculation\SnapshotTimingValidator.class
+com\ufcstudy\calculation\MarketQuoteResult.class
+com\ufcstudy\calculation\MathPolicy.class
+com\ufcstudy\calculation\ExpectedValueCalculator.class
+com\ufcstudy\calculation\MarketQuoteCalculator.class
+com\ufcstudy\calculation\TwoWayNoVigCalculator.class
+com\ufcstudy\calculation\ClosingLineValueCalculator.class
+com\ufcstudy\calculation\ImpliedProbabilityCalculator.class
+com\ufcstudy\calculation\KellyCalculator.class

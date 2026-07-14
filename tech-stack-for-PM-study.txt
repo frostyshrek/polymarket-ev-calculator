@@ -1,0 +1,47 @@
+Java stack: 
+Java 21 
+Spring Boot 
+Maven 
+PostgreSQL 
+Flyway 
+Jackson 
+Java 
+HttpClient 
+JUnit 5 
+Testcontainers 
+Docker 
+Compose 
+
+Modules: 
+domain 
+polymarket-client 
+odds-client 
+event-matching 
+calculation-engine 
+strategy-engine 
+simulation 
+settlement 
+persistence 
+reporting 
+api 
+scheduler
+
+Recommended development order
+
+Build in this order:
+1. Calculation library
+2. Database schema
+3. Sportsbook ingestion
+4. Polymarket ingestion
+5. Raw snapshot storage
+6. Manual event matching
+7. Opportunity calculation
+8. Paper betting
+9. Settlement
+10. Reporting
+11. Automated matching
+12. Kelly simulations
+13. Analytics dashboard / user interface
+14. Additional markets and sports
+
+Starting with the user interface would be a mistake. The value of the application lies in correct synchronized data and reproducible analysis.
