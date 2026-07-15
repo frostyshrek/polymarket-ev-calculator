@@ -1,3 +1,13 @@
+Database Commands:
+
+After starting the Docker Compose database, connect with:
+docker exec -it ufc-study-postgres `
+    psql -U ufc_study -d ufc_study
+
+
+======================
+
+
 Java stack: 
 Java 21 
 Spring Boot 
@@ -31,6 +41,7 @@ Recommended development order
 Build in this order:
 1. Calculation library
 2. Database schema
+-----------------------------------
 3. Sportsbook ingestion
 4. Polymarket ingestion
 5. Raw snapshot storage
