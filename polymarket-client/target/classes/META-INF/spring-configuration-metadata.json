@@ -1,0 +1,75 @@
+{
+  "groups": [
+    {
+      "name": "providers.polymarket",
+      "type": "com.ufcstudy.polymarket.config.PolymarketProperties",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "providers.polymarket.clob-base-url",
+      "type": "java.net.URI",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties"
+    },
+    {
+      "name": "providers.polymarket.connect-timeout",
+      "type": "java.time.Duration",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties"
+    },
+    {
+      "name": "providers.polymarket.depth-levels",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "providers.polymarket.discovery-polling-interval",
+      "type": "java.time.Duration",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties"
+    },
+    {
+      "name": "providers.polymarket.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "providers.polymarket.gamma-base-url",
+      "type": "java.net.URI",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties"
+    },
+    {
+      "name": "providers.polymarket.maximum-pages",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "providers.polymarket.maximum-retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "providers.polymarket.order-book-polling-interval",
+      "type": "java.time.Duration",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties"
+    },
+    {
+      "name": "providers.polymarket.page-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "providers.polymarket.request-timeout",
+      "type": "java.time.Duration",
+      "sourceType": "com.ufcstudy.polymarket.config.PolymarketProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

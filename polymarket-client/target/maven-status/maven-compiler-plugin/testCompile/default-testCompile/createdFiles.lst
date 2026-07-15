@@ -1,0 +1,3 @@
+com\ufcstudy\polymarket\discovery\provider\GammaPolymarketClientTest.class
+com\ufcstudy\polymarket\http\FakePolymarketHttpTransport.class
+com\ufcstudy\polymarket\orderbook\provider\ClobPolymarketClientTest.class

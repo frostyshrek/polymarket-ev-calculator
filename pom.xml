@@ -23,6 +23,7 @@
         <module>calculation-engine</module>
         <module>persistence</module>
         <module>odds-client</module>
+        <module>polymarket-client</module>
     </modules>
 
     <properties>

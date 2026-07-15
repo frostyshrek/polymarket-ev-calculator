@@ -1,0 +1,38 @@
+{
+  "market": "0xcondition100",
+  "asset_id": "token-a",
+  "timestamp": "1785628800000",
+  "hash": "test-order-book-hash",
+  "bids": [
+    {
+      "price": "0.58",
+      "size": "100"
+    },
+    {
+      "price": "0.57",
+      "size": "200"
+    },
+    {
+      "price": "0.56",
+      "size": "300"
+    }
+  ],
+  "asks": [
+    {
+      "price": "0.61",
+      "size": "150"
+    },
+    {
+      "price": "0.62",
+      "size": "250"
+    },
+    {
+      "price": "0.63",
+      "size": "350"
+    }
+  ],
+  "min_order_size": "1",
+  "tick_size": "0.01",
+  "neg_risk": false,
+  "last_trade_price": "0.59"
+}
