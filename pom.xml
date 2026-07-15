@@ -22,6 +22,7 @@
         <module>domain</module>
         <module>calculation-engine</module>
         <module>persistence</module>
+        <module>odds-client</module>
     </modules>
 
     <properties>

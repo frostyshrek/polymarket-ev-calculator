@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "name": "providers.the-odds-api",
+      "type": "com.ufcstudy.odds.config.OddsApiProperties",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "providers.the-odds-api.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.base-url",
+      "type": "java.net.URI",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.connect-timeout",
+      "type": "java.time.Duration",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.date-format",
+      "type": "java.lang.String",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "providers.the-odds-api.low-quota-threshold",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "providers.the-odds-api.markets",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.maximum-retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "providers.the-odds-api.odds-format",
+      "type": "java.lang.String",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.polling-interval",
+      "type": "java.time.Duration",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.regions",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.request-timeout",
+      "type": "java.time.Duration",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    },
+    {
+      "name": "providers.the-odds-api.sport-key",
+      "type": "java.lang.String",
+      "sourceType": "com.ufcstudy.odds.config.OddsApiProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
