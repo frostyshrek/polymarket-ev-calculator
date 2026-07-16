@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ufcstudy.reporting.repository.PerformanceSummaryRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.337 s -- in com.ufcstudy.reporting.repository.PerformanceSummaryRepositoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.387 s -- in com.ufcstudy.reporting.repository.PerformanceSummaryRepositoryTest
