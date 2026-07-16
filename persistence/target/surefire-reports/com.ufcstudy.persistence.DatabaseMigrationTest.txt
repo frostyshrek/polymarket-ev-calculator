@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ufcstudy.persistence.DatabaseMigrationTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.683 s -- in com.ufcstudy.persistence.DatabaseMigrationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.337 s -- in com.ufcstudy.persistence.DatabaseMigrationTest

@@ -1,0 +1,12 @@
+com\ufcstudy\strategy\validation\OpportunityRuleEvaluator.class
+com\ufcstudy\strategy\calculation\OpportunityTimingCalculator.class
+com\ufcstudy\strategy\config\UfcEvV1Rules.class
+com\ufcstudy\strategy\calculation\OpportunityTiming.class
+com\ufcstudy\strategy\calculation\ReferenceProbabilitySelector$1.class
+com\ufcstudy\strategy\model\OpportunityEvaluationRequest.class
+com\ufcstudy\strategy\model\RuleFailure.class
+com\ufcstudy\strategy\model\StrategyRules.class
+com\ufcstudy\strategy\model\OpportunityEvaluationResult.class
+com\ufcstudy\strategy\calculation\ReferenceProbabilitySelector.class
+com\ufcstudy\strategy\service\OpportunityCalculationService.class
+com\ufcstudy\strategy\service\OpportunityProcessingService.class

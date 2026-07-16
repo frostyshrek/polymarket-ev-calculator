@@ -23,5 +23,9 @@ C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\jav
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\SourceEventReferenceRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\SportingEventRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\SportRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\opportunity\model\OpportunityCandidateRecord.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\opportunity\model\OpportunityInsert.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\opportunity\repository\OpportunityCandidateRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\opportunity\repository\OpportunityRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\snapshot\repository\PredictionMarketSnapshotRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\snapshot\repository\SportsbookSnapshotRepository.java

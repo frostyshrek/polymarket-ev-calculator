@@ -1,5 +1,9 @@
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\matching\MappingStatus.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\matching\SettlementCompatibility.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\strategy\OpportunityRejectionCode.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\strategy\OpportunityStatus.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\strategy\ProbabilityMethod.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\strategy\StrategyVersionIds.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\value\DecimalOdds.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\value\Probability.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\value\Units.java

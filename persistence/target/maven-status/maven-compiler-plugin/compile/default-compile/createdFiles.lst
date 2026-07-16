@@ -1,7 +1,9 @@
 com\ufcstudy\persistence\snapshot\repository\SportsbookSnapshotRepository.class
 com\ufcstudy\persistence\snapshot\repository\PredictionMarketSnapshotRepository.class
 com\ufcstudy\persistence\JdbcTime.class
+com\ufcstudy\persistence\opportunity\repository\OpportunityCandidateRepository.class
 com\ufcstudy\persistence\matching\repository\MarketMappingRepository.class
+com\ufcstudy\persistence\opportunity\model\OpportunityCandidateRecord.class
 com\ufcstudy\persistence\matching\repository\MatchingAuditRepository.class
 com\ufcstudy\persistence\ingestion\model\IngestionType.class
 com\ufcstudy\persistence\matching\repository\SourceEventReferenceRepository.class
@@ -12,6 +14,7 @@ com\ufcstudy\persistence\ingestion\service\SportsbookIngestionStorageService.cla
 com\ufcstudy\persistence\ingestion\model\IngestionRunStatus.class
 com\ufcstudy\persistence\matching\repository\SportingEventRepository.class
 com\ufcstudy\persistence\market\repository\DeterministicUuidFactory.class
+com\ufcstudy\persistence\opportunity\repository\OpportunityRepository.class
 com\ufcstudy\persistence\ingestion\repository\IngestionRejectionRepository.class
 com\ufcstudy\persistence\ingestion\service\PolymarketOrderBookStorageService.class
 com\ufcstudy\persistence\hash\PayloadHasher.class
@@ -24,4 +27,5 @@ com\ufcstudy\persistence\matching\repository\ParticipantAliasRepository.class
 com\ufcstudy\persistence\ingestion\repository\RawPayloadRepository.class
 com\ufcstudy\persistence\hash\Sha256PayloadHasher.class
 com\ufcstudy\persistence\market\repository\SourceMarketRepository.class
+com\ufcstudy\persistence\opportunity\model\OpportunityInsert.class
 com\ufcstudy\persistence\ingestion\model\IngestionContext.class
