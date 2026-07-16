@@ -1,0 +1,5 @@
+com\ufcstudy\paperbetting\service\PaperBetPlacementService.class
+com\ufcstudy\paperbetting\model\PaperBetPlacementStatus.class
+com\ufcstudy\paperbetting\model\PaperBetPlacementRequest.class
+com\ufcstudy\paperbetting\model\PaperBetPlacementResult.class
+com\ufcstudy\paperbetting\service\PaperBetPlacementException.class

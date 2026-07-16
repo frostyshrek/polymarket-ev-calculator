@@ -26,6 +26,7 @@
         <module>polymarket-client</module>
         <module>event-matching</module>
         <module>strategy-engine</module>
+        <module>paper-betting</module>
     </modules>
 
     <properties>

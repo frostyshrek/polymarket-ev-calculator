@@ -27,5 +27,9 @@ C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\jav
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\opportunity\model\OpportunityInsert.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\opportunity\repository\OpportunityCandidateRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\opportunity\repository\OpportunityRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\paperbetting\model\PaperBetCandidateRecord.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\paperbetting\model\PaperBetInsert.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\paperbetting\repository\PaperBetCandidateRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\paperbetting\repository\PaperBetRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\snapshot\repository\PredictionMarketSnapshotRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\snapshot\repository\SportsbookSnapshotRepository.java
