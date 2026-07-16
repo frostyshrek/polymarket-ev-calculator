@@ -1,0 +1,14 @@
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\model\BookmakerPerformance.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\model\CumulativeProfitPoint.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\model\EvBandPerformance.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\model\PaperBetReportRow.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\model\PerformanceSummary.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\model\ReportFilter.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\model\StudyReport.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\repository\BookmakerPerformanceRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\repository\CumulativeProfitRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\repository\EvBandPerformanceRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\repository\PaperBetReportRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\repository\PerformanceSummaryRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\repository\ReportSqlParameters.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\reporting\src\main\java\com\ufcstudy\reporting\service\StudyReportingService.java

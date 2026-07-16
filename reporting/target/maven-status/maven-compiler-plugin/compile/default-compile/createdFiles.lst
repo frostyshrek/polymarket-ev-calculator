@@ -1,0 +1,14 @@
+com\ufcstudy\reporting\repository\CumulativeProfitRepository.class
+com\ufcstudy\reporting\model\CumulativeProfitPoint.class
+com\ufcstudy\reporting\repository\BookmakerPerformanceRepository.class
+com\ufcstudy\reporting\repository\PerformanceSummaryRepository.class
+com\ufcstudy\reporting\model\StudyReport.class
+com\ufcstudy\reporting\model\EvBandPerformance.class
+com\ufcstudy\reporting\repository\PaperBetReportRepository.class
+com\ufcstudy\reporting\service\StudyReportingService.class
+com\ufcstudy\reporting\repository\ReportSqlParameters.class
+com\ufcstudy\reporting\model\PerformanceSummary.class
+com\ufcstudy\reporting\model\PaperBetReportRow.class
+com\ufcstudy\reporting\model\BookmakerPerformance.class
+com\ufcstudy\reporting\model\ReportFilter.class
+com\ufcstudy\reporting\repository\EvBandPerformanceRepository.class
