@@ -29,6 +29,7 @@
         <module>paper-betting</module>
         <module>settlement</module>
         <module>reporting</module>
+        <module>kelly-simulation</module>
     </modules>
 
     <properties>

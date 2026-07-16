@@ -1,0 +1,14 @@
+com\ufcstudy\simulation\staking\KellyFractionCalculator.class
+com\ufcstudy\simulation\model\SimulationConfiguration.class
+com\ufcstudy\simulation\engine\SimulationSummaryCalculator.class
+com\ufcstudy\simulation\service\KellySimulationService.class
+com\ufcstudy\simulation\engine\BootstrapBetSampler.class
+com\ufcstudy\simulation\model\SimulationSummary.class
+com\ufcstudy\simulation\model\StrategyComparison.class
+com\ufcstudy\simulation\staking\CappedFractionalKellyStrategy.class
+com\ufcstudy\simulation\model\SimulationRunResult.class
+com\ufcstudy\simulation\service\KellyStrategyComparisonService.class
+com\ufcstudy\simulation\engine\BankrollSimulationEngine.class
+com\ufcstudy\simulation\model\SimulationBet.class
+com\ufcstudy\simulation\staking\FlatStakeStrategy.class
+com\ufcstudy\simulation\staking\StakeSizingStrategy.class
