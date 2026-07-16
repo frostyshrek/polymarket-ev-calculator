@@ -24,6 +24,7 @@
         <module>persistence</module>
         <module>odds-client</module>
         <module>polymarket-client</module>
+        <module>event-matching</module>
     </modules>
 
     <properties>

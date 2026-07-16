@@ -1,3 +1,5 @@
+com\ufcstudy\domain\matching\SettlementCompatibility.class
 com\ufcstudy\domain\value\Units.class
 com\ufcstudy\domain\value\Probability.class
+com\ufcstudy\domain\matching\MappingStatus.class
 com\ufcstudy\domain\value\DecimalOdds.class

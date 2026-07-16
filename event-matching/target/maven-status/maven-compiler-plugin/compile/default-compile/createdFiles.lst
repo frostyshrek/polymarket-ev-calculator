@@ -1,0 +1,7 @@
+com\ufcstudy\matching\model\ManualEventMatchResult.class
+com\ufcstudy\matching\service\ManualEventMatchingService.class
+com\ufcstudy\matching\validation\ManualMatchValidator.class
+com\ufcstudy\matching\normalization\ParticipantNameNormalizer.class
+com\ufcstudy\matching\model\OutcomePair.class
+com\ufcstudy\matching\model\FighterSpecification.class
+com\ufcstudy\matching\model\ManualEventMatchCommand.class

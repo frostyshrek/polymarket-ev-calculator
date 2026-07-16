@@ -13,5 +13,15 @@ C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\jav
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\market\repository\DeterministicUuidFactory.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\market\repository\SourceMarketRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\market\repository\SourceOutcomeRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\CompetitionRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\EventParticipantRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\MarketMappingRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\MatchingAuditRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\MatchValidationRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\ParticipantAliasRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\ParticipantRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\SourceEventReferenceRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\SportingEventRepository.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\matching\repository\SportRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\snapshot\repository\PredictionMarketSnapshotRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\snapshot\repository\SportsbookSnapshotRepository.java
