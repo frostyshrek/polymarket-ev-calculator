@@ -1,0 +1,10 @@
+com\ufcstudy\settlement\model\SettleEventCommand.class
+com\ufcstudy\settlement\calculation\PaperBetResultResolver$1.class
+com\ufcstudy\settlement\calculation\SettlementAmounts.class
+com\ufcstudy\settlement\model\OpenPaperBet.class
+com\ufcstudy\settlement\service\SettlementException.class
+com\ufcstudy\settlement\calculation\PaperBetResultResolver.class
+com\ufcstudy\settlement\model\EventSettlementResult.class
+com\ufcstudy\settlement\calculation\PaperBetSettlementCalculator$1.class
+com\ufcstudy\settlement\calculation\PaperBetSettlementCalculator.class
+com\ufcstudy\settlement\service\EventSettlementService.class

@@ -3,6 +3,8 @@ C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\paperbetting\PaperBetResult.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\paperbetting\PaperBetStatus.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\paperbetting\StakeMethod.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\settlement\OfficialResultType.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\settlement\ResolutionStatus.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\strategy\OpportunityRejectionCode.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\strategy\OpportunityStatus.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\domain\src\main\java\com\ufcstudy\domain\strategy\ProbabilityMethod.java

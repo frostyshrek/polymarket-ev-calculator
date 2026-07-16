@@ -27,6 +27,7 @@
         <module>event-matching</module>
         <module>strategy-engine</module>
         <module>paper-betting</module>
+        <module>settlement</module>
     </modules>
 
     <properties>
