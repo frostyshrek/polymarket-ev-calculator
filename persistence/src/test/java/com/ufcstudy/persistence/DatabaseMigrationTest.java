@@ -39,7 +39,7 @@ class DatabaseMigrationTest {
 
         var result = flyway.migrate();
 
-        assertEquals(6, result.migrationsExecuted);
+        assertEquals(7, result.migrationsExecuted);
     }
 
     @Test
@@ -79,7 +79,7 @@ class DatabaseMigrationTest {
 
             int tableCount = resultSet.getInt(1);
 
-            assertEquals(18, tableCount);
+            assertEquals(23, tableCount);
         }
     }
 
@@ -97,7 +97,7 @@ class DatabaseMigrationTest {
                 ResultSet resultSet = statement.executeQuery()
         ) {
             assertTrue(resultSet.next());
-            assertEquals(6, resultSet.getInt(1));
+            assertEquals(7, resultSet.getInt(1));
         }
     }
 }

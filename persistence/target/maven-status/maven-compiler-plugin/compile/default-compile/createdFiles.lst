@@ -1,0 +1,17 @@
+com\ufcstudy\persistence\ingestion\repository\IngestionRejectionRepository.class
+com\ufcstudy\persistence\snapshot\repository\SportsbookSnapshotRepository.class
+com\ufcstudy\persistence\snapshot\repository\PredictionMarketSnapshotRepository.class
+com\ufcstudy\persistence\JdbcTime.class
+com\ufcstudy\persistence\ingestion\service\PolymarketOrderBookStorageService.class
+com\ufcstudy\persistence\hash\PayloadHasher.class
+com\ufcstudy\persistence\ingestion\model\IngestionType.class
+com\ufcstudy\persistence\ingestion\repository\IngestionRunRepository.class
+com\ufcstudy\persistence\market\repository\SourceOutcomeRepository.class
+com\ufcstudy\persistence\ingestion\model\DataSourceIds.class
+com\ufcstudy\persistence\ingestion\repository\RawPayloadRepository.class
+com\ufcstudy\persistence\hash\Sha256PayloadHasher.class
+com\ufcstudy\persistence\ingestion\service\SportsbookIngestionStorageService.class
+com\ufcstudy\persistence\market\repository\SourceMarketRepository.class
+com\ufcstudy\persistence\ingestion\model\IngestionRunStatus.class
+com\ufcstudy\persistence\market\repository\DeterministicUuidFactory.class
+com\ufcstudy\persistence\ingestion\model\IngestionContext.class
