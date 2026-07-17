@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.ufcstudy.polymarket.discovery.provider.GammaPolymarketClientTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s -- in com.ufcstudy.polymarket.discovery.provider.GammaPolymarketClientTest

@@ -1,13 +1,13 @@
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\engine\BankrollSimulationEngine.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\engine\BootstrapBetSampler.java
-C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\engine\SimulationSummary.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\engine\SimulationSummaryCalculator.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\model\SimulationBet.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\model\SimulationConfiguration.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\model\SimulationRunResult.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\model\SimulationSummary.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\model\StrategyComparison.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\service\KellySimulationService.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\service\KellyStrategyComparisonService.java
-C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\service\StrategyComparison.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\staking\CappedFractionalKellyStrategy.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\staking\FlatStakeStrategy.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\kelly-simulation\src\main\java\com\ufcstudy\simulation\staking\KellyFractionCalculator.java

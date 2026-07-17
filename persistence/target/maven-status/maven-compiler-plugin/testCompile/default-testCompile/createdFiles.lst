@@ -1,4 +1,0 @@
-com\ufcstudy\persistence\hash\Sha256PayloadHasherTest.class
-com\ufcstudy\persistence\PersistenceIntegrationSupport.class
-com\ufcstudy\persistence\DatabaseMigrationTest.class
-com\ufcstudy\persistence\ingestion\service\PolymarketOrderBookStorageServiceTest.class
