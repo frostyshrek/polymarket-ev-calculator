@@ -30,6 +30,7 @@
         <module>settlement</module>
         <module>reporting</module>
         <module>kelly-simulation</module>
+        <module>console-ui</module>
     </modules>
 
     <properties>
@@ -95,6 +96,12 @@
                     <configuration>
                         <useModulePath>false</useModulePath>
                     </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>

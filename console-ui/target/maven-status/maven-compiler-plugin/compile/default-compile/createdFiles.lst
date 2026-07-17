@@ -1,0 +1,12 @@
+com\ufcstudy\console\MatchingReviewRepository$MatchingReviewRow.class
+com\ufcstudy\console\DatabaseStatusRepository.class
+com\ufcstudy\console\ConsoleConfiguration.class
+com\ufcstudy\console\PaperBetConsoleRepository$PaperBetConsoleRow.class
+com\ufcstudy\console\ConsoleDashboard.class
+com\ufcstudy\console\DatabaseStatusRepository$DatabaseStatus.class
+com\ufcstudy\console\ConsoleApplication.class
+com\ufcstudy\console\ConsoleTable.class
+com\ufcstudy\console\PaperBetConsoleRepository.class
+com\ufcstudy\console\HistoricalSimulationBetRepository.class
+com\ufcstudy\console\MatchingReviewRepository.class
+com\ufcstudy\console\ConsoleInput.class

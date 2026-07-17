@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: ufc-study-console
+
+  main:
+    web-application-type: none
+    banner-mode: off
+
+  datasource:
+    url: ${UFC_DB_URL:jdbc:postgresql://localhost:5432/ufc_study}
+    username: ${UFC_DB_USER:ufc_study}
+    password: ${UFC_DB_PASSWORD:local_development_password}
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    enabled: false
+
+logging:
+  level:
+    root: WARN
