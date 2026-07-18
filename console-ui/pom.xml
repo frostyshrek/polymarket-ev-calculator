@@ -58,6 +58,36 @@
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.ufcstudy</groupId>
+            <artifactId>odds-client</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ufcstudy</groupId>
+            <artifactId>persistence</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ufcstudy</groupId>
+            <artifactId>polymarket-client</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ufcstudy</groupId>
+            <artifactId>paper-betting</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ufcstudy</groupId>
+            <artifactId>settlement</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

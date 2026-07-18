@@ -2,10 +2,17 @@ package com.ufcstudy.persistence.settlement.repository;
 
 import com.ufcstudy.persistence.JdbcTime;
 import com.ufcstudy.persistence.settlement.model.EventResolutionInsert;
+import com.ufcstudy.persistence.settlement.model.FinalEventResolutionRecord;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.time.Instant;
+import java.time.OffsetDateTime;
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.UUID;
 
 public final class EventResolutionRepository {
@@ -18,7 +25,9 @@ public final class EventResolutionRepository {
         this.jdbc = Objects.requireNonNull(jdbc);
     }
 
-    public boolean sportingEventExists(UUID sportingEventId) {
+    public boolean sportingEventExists(
+            UUID sportingEventId
+    ) {
         Boolean exists = jdbc.queryForObject(
                 """
                 SELECT EXISTS (
@@ -66,7 +75,9 @@ public final class EventResolutionRepository {
         return Boolean.TRUE.equals(exists);
     }
 
-    public boolean finalResolutionExists(UUID sportingEventId) {
+    public boolean finalResolutionExists(
+            UUID sportingEventId
+    ) {
         Boolean exists = jdbc.queryForObject(
                 """
                 SELECT EXISTS (
@@ -87,7 +98,49 @@ public final class EventResolutionRepository {
         return Boolean.TRUE.equals(exists);
     }
 
-    public void insert(EventResolutionInsert resolution) {
+    public Optional<FinalEventResolutionRecord>
+    findFinalByEventId(
+            UUID sportingEventId
+    ) {
+        List<FinalEventResolutionRecord> resolutions =
+                jdbc.query(
+                        """
+                        SELECT
+                            id,
+                            sporting_event_id,
+                            winning_participant_id,
+                            official_result_type,
+                            official_result_text,
+                            result_source_id,
+                            source_external_result_id,
+                            official_result_at,
+                            observed_at
+                        FROM ufc_study.event_resolution
+                        WHERE sporting_event_id =
+                              :sportingEventId
+                          AND is_final = TRUE
+                        ORDER BY
+                            observed_at DESC,
+                            created_at DESC
+                        LIMIT 1
+                        """,
+                        new MapSqlParameterSource()
+                                .addValue(
+                                        "sportingEventId",
+                                        sportingEventId
+                                ),
+                        (resultSet, rowNumber) ->
+                                mapFinalResolution(
+                                        resultSet
+                                )
+                );
+
+        return resolutions.stream().findFirst();
+    }
+
+    public void insert(
+            EventResolutionInsert resolution
+    ) {
         jdbc.update(
                 """
                 INSERT INTO ufc_study.event_resolution (
@@ -118,7 +171,10 @@ public final class EventResolutionRepository {
                 )
                 """,
                 new MapSqlParameterSource()
-                        .addValue("id", resolution.id())
+                        .addValue(
+                                "id",
+                                resolution.id()
+                        )
                         .addValue(
                                 "sportingEventId",
                                 resolution.sportingEventId()
@@ -164,5 +220,58 @@ public final class EventResolutionRepository {
                                 resolution.metadataJson()
                         )
         );
+    }
+
+    private static FinalEventResolutionRecord
+    mapFinalResolution(
+            ResultSet resultSet
+    ) throws SQLException {
+        return new FinalEventResolutionRecord(
+                resultSet.getObject(
+                        "id",
+                        UUID.class
+                ),
+                resultSet.getObject(
+                        "sporting_event_id",
+                        UUID.class
+                ),
+                resultSet.getObject(
+                        "winning_participant_id",
+                        UUID.class
+                ),
+                resultSet.getString(
+                        "official_result_type"
+                ),
+                resultSet.getString(
+                        "official_result_text"
+                ),
+                resultSet.getObject(
+                        "result_source_id",
+                        UUID.class
+                ),
+                resultSet.getString(
+                        "source_external_result_id"
+                ),
+                toInstant(
+                        resultSet.getObject(
+                                "official_result_at",
+                                OffsetDateTime.class
+                        )
+                ),
+                toInstant(
+                        resultSet.getObject(
+                                "observed_at",
+                                OffsetDateTime.class
+                        )
+                )
+        );
+    }
+
+    private static Instant toInstant(
+            OffsetDateTime value
+    ) {
+        return value == null
+                ? null
+                : value.toInstant();
     }
 }

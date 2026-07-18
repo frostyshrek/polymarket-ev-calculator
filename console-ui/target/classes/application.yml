@@ -18,3 +18,17 @@ spring:
 logging:
   level:
     root: WARN
+
+ufc-study:
+  sportsbook:
+    enabled: ${SPORTSBOOK_INGESTION_ENABLED:false}
+    api-key: ${SPORTSBOOK_API_KEY:}
+    base-url: ${SPORTSBOOK_API_BASE_URL:}
+    region: ${SPORTSBOOK_REGION:us}
+    market: ${SPORTSBOOK_MARKET:h2h}
+
+  polymarket:
+    enabled: ${POLYMARKET_INGESTION_ENABLED:false}
+    gamma-base-url: ${POLYMARKET_GAMMA_BASE_URL:https://gamma-api.polymarket.com}
+    clob-base-url: ${POLYMARKET_CLOB_BASE_URL:https://clob.polymarket.com}
+    event-slug: ${POLYMARKET_EVENT_SLUG:}

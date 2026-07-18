@@ -32,6 +32,7 @@ C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\jav
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\paperbetting\repository\PaperBetCandidateRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\paperbetting\repository\PaperBetRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\settlement\model\EventResolutionInsert.java
+C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\settlement\model\FinalEventResolutionRecord.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\settlement\model\OpenPaperBetRecord.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\settlement\repository\EventResolutionRepository.java
 C:\Users\User\Documents\GitHub\polymarket-ev-calculator\persistence\src\main\java\com\ufcstudy\persistence\settlement\repository\OpenPaperBetRepository.java

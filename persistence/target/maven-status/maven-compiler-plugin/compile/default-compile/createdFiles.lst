@@ -7,6 +7,7 @@ com\ufcstudy\persistence\market\repository\SourceOutcomeRepository.class
 com\ufcstudy\persistence\settlement\repository\EventResolutionRepository.class
 com\ufcstudy\persistence\matching\repository\ParticipantRepository.class
 com\ufcstudy\persistence\ingestion\model\IngestionRunStatus.class
+com\ufcstudy\persistence\settlement\model\FinalEventResolutionRecord.class
 com\ufcstudy\persistence\ingestion\repository\IngestionRejectionRepository.class
 com\ufcstudy\persistence\paperbetting\model\PaperBetInsert.class
 com\ufcstudy\persistence\ingestion\service\PolymarketOrderBookStorageService.class
